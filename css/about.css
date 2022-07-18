@@ -1,0 +1,40 @@
+.about{
+  max-width: 100vw;
+  width: 100%;
+  min-height: 100vh;
+  margin-bottom: 100px;
+}
+.about h1{
+  text-align: center;
+  font-size: 35px;
+  width: 100%;
+  background: rgba(7, 34, 77, 1);
+  border-radius: 5px;
+}
+
+.about h1 a{
+  color: #fff;
+}
+
+.about article{
+  margin: 20px 50px;
+  line-height: 150%;
+  color: rgb(83, 83, 83);
+}
+
+.about article p{
+  margin-bottom: 10px;
+}
+
+.about article h2{
+  color: rgba(7, 34, 77, 1);
+  font-size: 25px;
+}
+
+.about article li{
+  padding: 10px;
+}
+
+.about article li i{
+  padding-right: 10px;
+}

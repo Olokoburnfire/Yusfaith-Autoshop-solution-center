@@ -13,6 +13,10 @@
   <link rel="stylesheet" href="./css/home.css">
   <link rel="stylesheet" href="./css/gallery.css" type="text/css">
   <link rel="stylesheet" type="text/css" href="./css/lightbox.min.css">
+  <link rel="stylesheet" href="./css/footer.css">
+  <link rel="stylesheet" href="./css/scroll.css">
+  <link rel="stylesheet" href="./css/about.css">
+  <link rel="stylesheet" href="./css/service.css">
 
   <!-- Fontawesome CDN Link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
@@ -24,6 +28,15 @@
   
 </head>
 <body>
+
+  <!-- scroll to the top button -->
+  <div id="progress">
+    <span id="progress-value">
+      <i class="fa-solid fa-arrow-up"></i>
+    </span>
+  </div>
+
+
   <!-- Header section -->
   <header class="top-section">
     <nav class="main-nav nav-container">
@@ -43,18 +56,18 @@
             </a>
           </li>
           <li class=" nav-item">
-            <a href="#">
+            <a href="#about">
               About
             </a>
           </li>
           <li class=" nav-item">
-            <a href="#">
+            <a href="#service">
               Service
             </a>
           </li>
           <li class=" nav-item">
             <a href="#portfolio">
-              Portfolio
+              Gallery
             </a>
           </li>
           <li class=" nav-item">
@@ -63,7 +76,7 @@
             </a>
           </li>
           <li class=" nav-item">
-            <a href="#">
+            <a href="#testimonial">
               Testimonials
             </a>
           </li>
@@ -84,26 +97,139 @@
       <div class="home_content">
         <!-- homepage content -->
         <div class="slider" id="slider" >
-          <h1>Yusfaith Autoshop Solution Center</h1>
-          <p> 
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias quas vero laborum dolorem maiores veniam tempora cumque, excepturi fugiat nostrum cupiditate laboriosam tenetur, fuga laudantium suscipit nihil esse aliquam corrupti? 
-            <span>since 1999</span>
-          </p>
+          <!-- <h1>Yusfaith Autoshop Solution Center</h1> -->
+          <div class="opening">
+            <h3>We're open on :</h3>
+            <p>Mondays <i class="fa-solid fa-arrow-right"></i> 8:00am to 7:00pm</p>
+            <p>Tuesdays <i class="fa-solid fa-arrow-right"></i> 8:00am to 7:00pm</p>
+            <p>Wednesdays <i class="fa-solid fa-arrow-right"></i> 8:00am to 7:00pm</p>
+            <p>Thursdays <i class="fa-solid fa-arrow-right"></i> 8:00am to 7:00pm</p>
+            <p>Fridays <i class="fa-solid fa-arrow-right"></i> 8:00am to 7:00pm</p>
+            <p>Saturday <i class="fa-solid fa-arrow-right"></i> 8:00am to 7:00pm</p>
+          </div>
           <!-- contact us button -->
-          <a href="#contact" id = "contact-btn" class = "btn contact-btn">Contact</a>
+          <a href="#contact" id = "contact-btn" class = "btn contact-btn">Contact Details</a>
 
         </div>
       </div>
     </section>
-    <section class="about" id="about"></section>
-    <section class="service" id="service">
 
+    <!-- About the company -->
+    <section class="about" id="about">
+        <h1>
+          <a href="#about">About Us</a>
+        </h1>
+      <article>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga dignissimos a assumenda eaque reiciendis quisquam tenetur exercitationem deleniti earum! Nesciunt eum quae provident dolorum id. Expedita repellat repudiandae, excepturi debitis soluta error assumenda mollitia fugit. Ipsum quaerat cumque nihil harum possimus voluptatum eum quam! Laboriosam libero nulla tempora? Magnam quam, dignissimos laboriosam numquam fugiat nemo laborum debitis quas atque quos eius. Dolores minima non quidem consequuntur, nisi quisquam magnam inventore laborum temporibus, fuga voluptate magni totam modi! Ipsam labore nesciunt dolores voluptatibus illum consequatur cum ullam reiciendis fuga, ut autem doloremque rem suscipit, fugit maxime facilis quod, necessitatibus sed repellat.
+        </p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia blanditiis hic itaque esse perferendis consectetur voluptatum nulla nostrum atque eligendi quisquam aliquid voluptatibus consequatur veritatis tenetur, porro dolores distinctio provident, dolorem obcaecati quaerat ipsam facere. Perferendis ipsam molestiae debitis voluptatem nemo nostrum tempore ipsum similique dolor labore tenetur consectetur repellendus perspiciatis dolorum animi magni accusantium, laudantium odio? Aliquam obcaecati aliquid repellat accusantium labore, dignissimos nam provident optio asperiores quibusdam similique saepe harum molestias, officia tenetur error at blanditiis ad cum. Aspernatur, tempore cupiditate suscipit unde eum dolorem aliquid! Quidem error perferendis, possimus ducimus iure cupiditate blanditiis nostrum tenetur laudantium est?
+        </p>
+        <h2>Why Choose Us</h2>
+        <ul>
+          <li>
+            <i class="fa-brands fa-instagram"></i><span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid, fugit?</span>
+          </li>
+          <li>
+            <i class="fa-brands fa-instagram"></i><span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid, fugit?</span>
+          </li>
+          <li>
+            <i class="fa-brands fa-instagram"></i><span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid, fugit?</span>
+          </li>
+          <li>
+            <i class="fa-brands fa-instagram"></i><span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid, fugit?</span>
+          </li>
+        </ul>
+      </article>
     </section>
+
+    <!-- What the company offer -->
+    <section class="service" id="service">
+      <h1 class="section-heading">
+        <a href="#service">Service Offered</a>
+      </h1>
+     <div class="row">
+        <div class="column">
+          <div class="card">
+            <div class="icon-wrapper">
+              <i class="fas fa-hammer"></i>
+            </div>
+            <h3>Service Heading</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
+              consequatur necessitatibus eaque.
+            </p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <div class="icon-wrapper">
+              <i class="fas fa-brush"></i>
+            </div>
+            <h3>Service Heading</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
+              consequatur necessitatibus eaque.
+            </p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <div class="icon-wrapper">
+              <i class="fas fa-wrench"></i>
+            </div>
+            <h3>Service Heading</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
+              consequatur necessitatibus eaque.
+            </p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <div class="icon-wrapper">
+              <i class="fas fa-truck-pickup"></i>
+            </div>
+            <h3>Service Heading</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
+              consequatur necessitatibus eaque.
+            </p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <div class="icon-wrapper">
+              <i class="fas fa-broom"></i>
+            </div>
+            <h3>Service Heading</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
+              consequatur necessitatibus eaque.
+            </p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <div class="icon-wrapper">
+              <i class="fas fa-plug"></i>
+            </div>
+            <h3>Service Heading</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
+              consequatur necessitatibus eaque.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- company portfolio -->
     <section class="portfolio" id="portfolio">
-     <a href="#portfolio">
-      <h1>Yusfaith Gallery</h1>
-      </a>
+      <h1>
+        <a href="#portfolio">Yusfaith Gallery</a>
+      </h1>
       <div class="gallery">
         <a href="./images/portfolio/pictures/p10.jpg" data-lightbox="gallery1" data-title="Technician at work">
           <img src="./images/portfolio/pictures/p10.jpg" alt="gallery image 1">
@@ -137,28 +263,124 @@
         </a>
       </div>
     </section>
+
+    <!-- what the client says -->
     <section class="testimonial" id="testimonial"></section>
-    <section class="team"></section>
-    <section class="contact" id="contact"></section>
+
+    <!-- the backbone of the company -->
+    <section class="team" id="team"></section>
+
+    <!-- get in touch with the company -->
+    <section class="contact" id="contact">
+      <div class="contactContainer">
+        <div class="contact-info">
+          <div>
+            <h2>Contact Info</h2>
+            <ul class="cInfo">
+              <li>
+                <span>
+                  <i class="fa-solid fa-location-dot"></i>
+                </span>
+                <span>
+                  Lorem, ipsum dolor. <br>
+                  Lorem, ipsum <br>
+                  Lorem.
+                </span>
+              </li>
+
+              <li>
+                <span>
+                  <i class="fa-solid fa-envelope"></i>
+                </span>
+                <span>
+                  yusfaithautoshopsolutions@yahoo.com
+                </span>
+              </li>
+
+              <li>
+                <span>
+                  <i class="fa-solid fa-phone"></i>
+                </span>
+                <span>
+                  yusfaithautoshopsolutions@yahoo.com
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="contact-form">
+        </div>
+      </div>
+    </section>
+
   </main>
 
   <!-- footer of the page -->
   <footer>
-    
+    <div class="row">
+      <div class="col">
+        <a href="#home">
+          <img src="./images/logo/full logo 1.png" alt="logo" class="logo">
+        </a>
+        <p>
+         Our focus as a solution center is offering the best solution to your automobile problems at affordable prices. We have been in business for over 20 years of servicing Japanese as well as European vehicles.
+        </p>
+      </div>
+      <div class="col">
+        <h3>Office <div class="underline"><span></span></div></h3>
+        <address>
+          <p>7, karimu street </p>
+        <p>Isolo, Oshodi/Isolo LGA</p>
+        <p>Lagos, Post-code 560066, Nigeria.</p>
+        </address>
+        <p class="email-id">
+          <a href="mailto:olokodana56@gnail.com">olokodana56@gmail.com</a>
+        </p>
+        <h4>
+          <a href="tel:+2347061144809">07061144809</a>
+        </h4>
+        <br>
+        <h4>
+          <a href="tel:+2349020948387">09020948387</a>
+        </h4>
+      </div>
+      <div class="col">
+        <h3>Links <div class="underline"><span></span></div></h3>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#service">Service</a></li>
+          <li><a href="#portfolio">Gallery</a></li>
+          <li><a href="#testimonial">Testimonial</a></li>
+          <li><a href="#team">The Team</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="col">
+        <h3>Newsletter <div class="underline"><span></span></div></h3>
+        <form action="#">
+          <i class="far fa-envelope"></i>
+          <h4>COMING SOON</h4>
+        </form>
+        <div class="social-icons">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-whatsapp"></i>
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+      </div>
+    </div>
+    <hr>
+    <p class="copyright">
+      <a href="mailto:olokodanaabdulkabir@gmail.com">Olokodana</a>  solutions &copy; 2022 - All rights reserved.
+    </p>
   </footer>
 
-
-
   <!-- scripts -->
+  <script src="./js/scroll.js"></script>
   <script src="./js/header.js" defer></script>
 </body>
 </html>
-
-
-
-
-
-
 
 
 

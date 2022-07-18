@@ -1,4 +1,5 @@
 .top-section{
+  max-width: 100%;
   width: 100%;
   height: fit-content;
   color: rgb(7, 34, 77, 1);
@@ -21,7 +22,7 @@
   align-items: center;
   justify-content: center;
   margin-left: 0.5em;
-  margin-top: 1.8em;
+  /* margin-top: 1.8em; */
 }
 .top-section .main-nav .nav-header a img{
   width: 80%;

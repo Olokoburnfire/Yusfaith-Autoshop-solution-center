@@ -1,35 +1,30 @@
-
 .portfolio h1 {
   text-align: center;
-  font-size: 3em;
+  font-size: 35px;
   width: 100%;
   background: rgba(7, 34, 77, 1);
   border-radius: 5px;
-  color: #fff;
+  
   /* margin: 30px 0 50px; */
 }
 
+.portfolio h1 a{
+  color: #fff;
+}
+
 .portfolio .gallery {
-  margin: 1em 4em;
+  margin: 10px 50px;
 }
 
 .gallery img {
   max-width: 230px;
   width: 230px;
   padding: 5px;
-  filter: grayscale(50%);
-  transition: 1s;
-}
-.gallery video {
-  max-width: 300px;
-  width: 300px;
-  padding: 5px;
-  filter: grayscale(50%);
+  filter: grayscale(70%);
   transition: 1s;
 }
 
-.gallery img:hover,
-.gallery video:hover {
+.gallery img:hover {
   filter: grayscale(0);
   transform: scale(1.1);
 }
